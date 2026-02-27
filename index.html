@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,13 +25,17 @@
 		<div class="navbar-inner">
 			<a href="#inicio" class="brand">
 				<div class="brand-avatar">
-					<img src="assets/img/bruno1.jpeg" alt="Foto de perfil de Bruno Roberto Cataneo" />
+					<img src="assets/img/logo.png" alt="Foto de perfil de Bruno Roberto Cataneo" />
 				</div>
 				<div class="brand-text">
 					<span class="brand-name">Bruno Cataneo</span>
 					<span class="brand-role">Desenvolvedor Web</span>
 				</div>
 			</a>
+
+			<button class="theme-toggle" type="button" aria-label="Alternar tema claro/escuro" data-theme-toggle>
+				<i class="fa-regular fa-moon"></i>
+			</button>
 
 			<button class="hamburger" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" data-toggle="nav">
 				<span class="hamburger-line"></span>
@@ -43,6 +47,7 @@
 				<li><a class="nav-link" href="#habilidades">Habilidades</a></li>
 				<li><a class="nav-link" href="#projetos">Projetos</a></li>
 				<li><a class="nav-link" href="#certificados">Certificados</a></li>
+				<li><a class="nav-link" href="#hobbies">Hobbies</a></li>
 				<li><a class="nav-cta" href="#contato"><span>Vamos conversar</span> <span>↗</span></a></li>
 			</ul>
 		</div>
@@ -360,6 +365,21 @@
 							<span class="skill-pill">Custo-Benefício</span>
 						</div>
 					</div>
+					<div class="skill-card">
+						<div class="skill-card-illustration">
+							<img src="assets/img/I.A -.png" alt="Ilustração de Bruno trabalhando com treinamento de I.A." />
+						</div>
+						<h3>Treinamento de I.A.</h3>
+						<p>
+							Desenvolvimento e refinamento de modelos de inteligência artificial, atuando no pré-processamento de dados, 
+							otimização de arquiteturas neurais e fluxos de MLOps para garantir eficiência e precisão técnica.
+						</p>
+						<div class="skill-tags">
+							<span class="skill-pill">Python</span>
+							<span class="skill-pill">Deep Learning</span>
+							<span class="skill-pill">MLOps</span>
+						</div>
+					</div>
 				</div>
 
 				<div class="skills-note">
@@ -623,6 +643,86 @@
 			</div>
 		</section>
 
+		<section class="section" id="hobbies" aria-labelledby="titulo-hobbies">
+			<div class="section-header">
+				<div>
+					<div class="section-eyebrow">Além do código</div>
+					<h2 class="section-title" id="titulo-hobbies">Hobbies e interesses</h2>
+				</div>
+				<p class="section-description">
+					Algumas das atividades que fazem parte do meu dia a dia e que também influenciam minha forma de
+					pensar, criar e resolver problemas.
+				</p>
+			</div>
+
+			<div class="hobbies-carousel" aria-label="Carrossel de hobbies">
+				<button class="hobbies-control hobbies-control-prev" type="button" aria-label="Hobby anterior">
+					<i class="fa-solid fa-chevron-left"></i>
+				</button>
+
+				<div class="hobbies-viewport">
+					<div class="hobbies-track">
+						<article class="hobby-card">
+							<div class="hobby-image">
+								<img src="assets/img/GUITAR.png" alt="Pessoa editando vídeo no computador" />
+							</div>
+							<h3>Tocar Violão</h3>
+							<p>
+								Ainda no começo, mas gosto de tocar e aprender mais.
+							</p>
+						</article>
+
+						<article class="hobby-card">
+							<div class="hobby-image">
+								<img src="assets/img/fishing.png" alt="Ilustração de pesca como hobby" />
+							</div>
+							<h3>Pesca</h3>
+							<p>
+								Passar um tempo fora, relaxar e aproveitar a natureza.
+							</p>
+						</article>
+
+						<article class="hobby-card">
+							<div class="hobby-image">
+								<img src="assets/img/read.png" alt="Pessoa lendo livros e materiais de estudo" />
+							</div>
+							<h3>Leitura e estudo contínuo</h3>
+							<p>
+								Ler sobre tecnologia, produtividade e desenvolvimento pessoal para manter a mente ativa e
+								atualizada.
+							</p>
+						</article>
+
+						<article class="hobby-card">
+							<div class="hobby-image">
+								<img src="assets/img/game.png" alt="Cena de jogos eletrônicos" />
+							</div>
+							<h3>Jogos e tecnologia</h3>
+							<p>
+								Jogos eletrônicos como forma de relaxar, mas também de observar interfaces, feedbacks e
+								experiências imersivas.
+							</p>
+						</article>
+
+						<article class="hobby-card">
+							<div class="hobby-image">
+								<img src="assets/img/gym.png" alt="Pessoa caminhando em área externa" />
+							</div>
+							<h3>Atividades ao ar livre</h3>
+							<p>
+								Caminhadas e momentos ao ar livre para equilibrar o tempo em frente às telas e renovar as
+								ideias.
+							</p>
+						</article>
+					</div>
+				</div>
+
+				<button class="hobbies-control hobbies-control-next" type="button" aria-label="Próximo hobby">
+					<i class="fa-solid fa-chevron-right"></i>
+				</button>
+			</div>
+		</section>
+
 		<section class="contact" id="contato" aria-labelledby="titulo-contato">
 			<div>
 				<h2 class="contact-title" id="titulo-contato">Vamos falar sobre seu próximo projeto?</h2>
@@ -664,6 +764,7 @@
 				<a href="#inicio">Início</a>
 				<a href="#sobre">Sobre</a>
 				<a href="#projetos">Projetos</a>
+				<a href="#hobbies">Hobbies</a>
 				<a href="#contato">Contato</a>
 			</div>
 		</div>
