@@ -1,0 +1,20 @@
+Coloque aqui os arquivos PDF para os downloads do portfólio.
+
+CURRÍCULO (botão no topo da página):
+  curriculo-bruno-cataneo.pdf
+
+CERTIFICADOS (pasta certificados/):
+  ciencia-computacao.pdf
+  programador-sistemas.pdf
+  suporte-manutencao-redes.pdf
+  design-grafico.pdf
+  robotica.pdf
+  scrum.pdf
+  instalacoes-eletricas.pdf
+  hello-tecnologia.pdf
+  design-thinking.pdf
+  tecnologias-4-industria.pdf
+  maratona-tech.pdf
+  fundamentos-hardware.pdf
+
+Os nomes devem ser exatamente iguais aos listados acima.
