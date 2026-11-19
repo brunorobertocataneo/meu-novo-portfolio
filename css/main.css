@@ -1131,37 +1131,17 @@ main {
 }
 
 
-/* Capas temáticas dos novos projetos — sem depender de imagens externas */
-.project-thumb--illustrated {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  min-height: 180px;
-  color: #f8fafc;
-  text-align: center;
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
+/* Capas dos projetos */
+.project-thumb--casamento {
+  background: linear-gradient(135deg, #4c1d45, #9d4edd 65%, #f472b6);
 }
-.project-thumb--illustrated::before {
-  content: "";
-  position: absolute;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background: rgba(255,255,255,.08);
-  filter: blur(12px);
-  z-index: -1;
+.project-thumb--casamento img {
+  object-fit: contain;
+  padding: 0.4rem;
 }
-.project-thumb--illustrated i { font-size: clamp(2.2rem, 5vw, 3.4rem); filter: drop-shadow(0 0 18px rgba(255,255,255,.25)); }
-.project-thumb--illustrated span { font-size: 1.12rem; font-weight: 750; letter-spacing: .04em; }
-.project-thumb--cinema { background: linear-gradient(135deg, #111827, #1d4ed8 58%, #0ea5e9); }
-.project-thumb--renova { background: linear-gradient(135deg, #072a29, #047857 54%, #14b8a6); }
-.project-thumb--casamento { background: linear-gradient(135deg, #44203d, #9333ea 55%, #ec4899); }
-.project-card:hover .project-thumb--illustrated i { transform: translateY(-4px) scale(1.07); transition: transform .25s ease; }
-@media (prefers-reduced-motion: reduce) { .project-card:hover .project-thumb--illustrated i { transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .project-card:hover .project-thumb img { transform: none; }
+}
 
 .project-meta {
 	display: flex;
