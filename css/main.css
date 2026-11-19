@@ -1210,6 +1210,12 @@ main {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	gap: 1rem;
+	align-items: stretch;
+}
+
+.cert-list > .cert-card {
+	min-width: 0;
+	height: 100%;
 }
 
 .cert-card {
@@ -1489,7 +1495,7 @@ main {
 	}
 
 	.cert-list {
-		grid-template-columns: minmax(0, 1fr);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
 
@@ -1625,5 +1631,12 @@ main {
 
 	.contact {
 		padding: 1.4rem 0.9rem 1.5rem;
+	}
+}
+
+/* Os certificados ocupam duas colunas em telas médias e grandes. */
+@media (max-width: 640px) {
+	.cert-list {
+		grid-template-columns: minmax(0, 1fr);
 	}
 }
