@@ -1676,3 +1676,26 @@ main {
 		grid-template-columns: minmax(0, 1fr);
 	}
 }
+
+/* Centralização explícita, inclusive quando o CSS anterior usa grid de duas colunas. */
+#experiencias .timeline {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	justify-items: center;
+}
+#experiencias .timeline-list {
+	width: min(100%, 850px);
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#habilidades .skills-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	justify-items: center;
+}
+#habilidades .skills-columns {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
