@@ -1640,3 +1640,39 @@ main {
 		grid-template-columns: minmax(0, 1fr);
 	}
 }
+
+
+/* Experiências e Habilidades: cards centralizados, sem colunas de observações. */
+#experiencias .timeline,
+#habilidades .skills-grid {
+	display: block;
+	width: 100%;
+	margin-inline: auto;
+}
+
+#experiencias .timeline-list {
+	width: 100%;
+	max-width: 850px;
+	margin-inline: auto;
+}
+
+#habilidades .skills-columns {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 1.25rem;
+	width: 100%;
+	max-width: 1050px;
+	margin-inline: auto;
+}
+
+@media (max-width: 850px) {
+	#habilidades .skills-columns {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 560px) {
+	#habilidades .skills-columns {
+		grid-template-columns: minmax(0, 1fr);
+	}
+}
