@@ -1,4 +1,6 @@
-# Portfólio de Bruno Roberto Cataneo
+<p align="center">
+  <img src="assets/readme/portfolio.svg" width="960" alt="Portfólio de Bruno Roberto Cataneo. Um computador com código e uma xícara de café ilustram o cabeçalho." />
+</p>
 
 Sou estudante de Ciência da Computação na UNOESC e trabalho com suporte e infraestrutura de TI. Meu portfólio reúne projetos de desenvolvimento, automação e experiências profissionais.
 
@@ -6,10 +8,17 @@ Sou estudante de Ciência da Computação na UNOESC e trabalho com suporte e inf
 
 ## Projetos em destaque
 
-| Vision Cinemas | MonitorRenova |
-| --- | --- |
-| [![Ilustração da vitrine de filmes e sessões](assets/img/vision-cinemas-cover.svg)](https://github.com/brunorobertocataneo/REDE-CINEMA-FINAL) | [![Ilustração do painel de vencimentos de seguros](assets/img/monitorrenova-cover.svg)](https://github.com/brunorobertocataneo/Monitorrenova) |
-| Sistema de cinema com sessões e escolha de assentos, feito com Java, Spring Boot e MySQL. | Sistema acadêmico de acompanhamento de renovações de seguros, com filtros, histórico e uma demonstração independente de automação no n8n. |
+### Vision Cinemas
+
+[![Desenho de uma claquete e um ingresso de cinema](assets/readme/cinema.svg)](https://github.com/brunorobertocataneo/REDE-CINEMA-FINAL)
+
+Sistema para consultar sessões e escolher assentos. Desenvolvido com Java, Spring Boot e MySQL. [Ver Vision Cinemas](https://github.com/brunorobertocataneo/REDE-CINEMA-FINAL)
+
+### MonitorRenova
+
+[![Desenho de um calendário com uma marca de confirmação](assets/readme/renovacoes.svg)](https://github.com/brunorobertocataneo/Monitorrenova)
+
+Sistema de acompanhamento de vencimentos de seguros, com filtros, histórico e uma demonstração separada de automação no n8n. [Ver MonitorRenova](https://github.com/brunorobertocataneo/Monitorrenova)
 
 ### Outros projetos
 
