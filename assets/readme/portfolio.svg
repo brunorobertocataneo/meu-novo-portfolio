@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 285" width="960" height="285" role="img"><title>Bruno Roberto Cataneo — Portfólio</title>
+<rect width="960" height="285" rx="24" fill="#151c29"/>
+<path d="M590 0h346q24 0 24 24v237q0 24-24 24H706z" fill="#253848"/>
+<circle cx="775" cy="141" r="107" fill="#314a58"/>
+<g font-family="system-ui, sans-serif"><text x="46" y="83" font-size="20" font-weight="700" letter-spacing="4" fill="#92e2ce">PORTFÓLIO</text><text x="44" y="141" font-size="44" font-weight="750" fill="#fff4e4">Bruno Roberto Cataneo</text><text x="47" y="187" font-size="21" fill="#e0e8e7">Desenvolvimento · Automação · Infraestrutura</text></g>
+<g stroke="#151c29" stroke-width="5" stroke-linejoin="round">
+<path d="M650 207h251" stroke="#92e2ce" stroke-linecap="round"/>
+<rect x="668" y="74" width="154" height="105" rx="12" fill="#fff4e4"/>
+<rect x="678" y="84" width="134" height="80" rx="6" fill="#151c29"/>
+<path d="M736 178v19h-20v10h58v-10h-20v-19" fill="#fff4e4"/>
+<path d="m705 112-12 10 12 10m25-20 12 10-12 10m-8-24-9 28" fill="none" stroke="#92e2ce" stroke-linecap="round"/>
+<path d="M759 111h39m-39 12h26m-26 12h34" stroke="#ffb184" stroke-width="3" stroke-linecap="round"/>
+<path d="M845 175h37v16a16 16 0 0 1-16 16h-5a16 16 0 0 1-16-16z" fill="#ffb184"/>
+<path d="M881 179h8a7 7 0 0 1 0 14h-8" fill="none" stroke="#ffb184" stroke-width="4"/>
+<path d="M857 166q-5-6 0-12t0-11m11 23q-5-6 0-12t0-11" fill="none" stroke="#fff4e4" stroke-width="2" stroke-linecap="round"/>
+</g><g fill="#ffb184"><circle cx="860" cy="80" r="4"/><path d="M843 96h16m-8-8v16" stroke="#ffb184" stroke-width="2"/></g></svg>
