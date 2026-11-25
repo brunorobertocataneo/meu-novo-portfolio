@@ -1,62 +1,38 @@
-# 🌐 Portfólio Pessoal - Bruno Roberto Cataneo
+# Portfólio de Bruno Roberto Cataneo
 
-Este é o meu portfólio pessoal, desenvolvido com HTML, CSS e JavaScript, para apresentar meus projetos, habilidades e evolução como estudante de Ciência da Computação.
+Sou estudante de Ciência da Computação na UNOESC e trabalho com suporte e infraestrutura de TI. Meu portfólio reúne projetos de desenvolvimento, automação e experiências profissionais.
 
-Acesse-o pelo link: https://brunorobertocataneo.github.io/meu-novo-portfolio/
+**[Acessar o portfólio online](https://brunorobertocataneo.github.io/meu-novo-portfolio/)**
 
----
+## Projetos em destaque
 
-## 🚀 Funcionalidades
+| Vision Cinemas | MonitorRenova |
+| --- | --- |
+| [![Ilustração da vitrine de filmes e sessões](assets/img/vision-cinemas-cover.svg)](https://github.com/brunorobertocataneo/REDE-CINEMA-FINAL) | [![Ilustração do painel de vencimentos de seguros](assets/img/monitorrenova-cover.svg)](https://github.com/brunorobertocataneo/Monitorrenova) |
+| Sistema de cinema com sessões e escolha de assentos, feito com Java, Spring Boot e MySQL. | Sistema acadêmico de acompanhamento de renovações de seguros, com filtros, histórico e uma demonstração independente de automação no n8n. |
 
-- ✅ Página inicial com rolagem suave entre seções
-- 🖼️ Galeria de projetos com carrossel de imagens (com botões "Anterior" e "Próximo")
-- 🎯 Botões que redirecionam para os projetos hospedados no GitHub Pages
-- 📱 Design responsivo para celular, tablet e desktop
+### Outros projetos
 
----
+- [Nosso Grande Dia](https://github.com/brunorobertocataneo/nosso-grande-dia.) — protótipo de lista de presentes com cotas simuladas.
+- [ERS Seguros](https://brunorobertocataneo.github.io/ERS/) — site responsivo de uma corretora.
+- [Olhar Cultural](https://brunorobertocataneo.github.io/olhar_cultural/)
+- [Calculadora](https://brunorobertocataneo.github.io/Calculadora/)
+- [Jogo da Memória](https://brunorobertocataneo.github.io/programming_memory_game/)
+- [IA na Educação](https://brunorobertocataneo.github.io/I.A-NA-EDUCACAO/)
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias do portfólio
 
-- HTML5
-- CSS3
-- JavaScript 
+HTML, CSS e JavaScript, com layout responsivo e publicação no GitHub Pages.
 
----
+## Executar localmente
 
-## 📸 Imagens dos Projetos
+```bash
+git clone https://github.com/brunorobertocataneo/meu-novo-portfolio.git
+cd meu-novo-portfolio
+```
 
-Os projetos exibidos no carrossel incluem:
+Abra o arquivo `index.html` no navegador.
 
-1. **Olhar Cultural**  
-   [🔗 Acessar](https://brunorobertocataneo.github.io/olhar_cultural/)
+## Contato
 
-2. **Calculadora**  
-   [🔗 Acessar](https://brunorobertocataneo.github.io/Calculadora/)
-
-3. **Jogo da Memória (Programação)**  
-   [🔗 Acessar](https://brunorobertocataneo.github.io/programming_memory_game/)
-
-4. **Inteligência Artificial na Educação**  
-   [🔗 Acessar](https://brunorobertocataneo.github.io/I.A-NA-EDUCACAO/)
-
----
-
-## 👨‍💻 Sobre Mim
-
-Sou estudante de Ciência da Computação, com interesse em desenvolvimento web e computação forense. 
-
----
-
-## 📬 Contato
-
-- 📧 Email: brunorobertocataneo@gmail.com  
-- 📱 WhatsApp: [Clique aqui para conversar](https://wa.me/49984099411)
-- 💼 LinkedIn: [linkedin.com/in/seu-usuario](https://linkedin.com)
-
----
-
-## 📌 Como Rodar Localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+[LinkedIn](https://www.linkedin.com/in/bruno-roberto-cataneo-0b38132a5/) · [E-mail](mailto:bruno31.cataneo@gmail.com) · [WhatsApp](https://wa.me/qr/VEIMALFZP7C6N1)
